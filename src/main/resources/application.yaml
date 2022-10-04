@@ -1,0 +1,18 @@
+auth:
+  jwt:
+    accessTokenLifetimeSeconds: 3600
+    refreshTokenLifetimeSeconds: 1209600
+    publicKey: classpath:certs/public.pem
+    privateKey: classpath:certs/private.pem
+    admin:
+      enabled: true
+      email: admin@example.com
+      password: password
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/test
+
+springdoc:
+  default-produces-media-type: application/json
