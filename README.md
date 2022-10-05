@@ -19,6 +19,8 @@ $ mvn clean package
 
 ## Running the app
 
+*private key under resources/certs/private.pem created for demo purpose. Do not use for production.*
+
 application.yaml
 ```
 auth:
